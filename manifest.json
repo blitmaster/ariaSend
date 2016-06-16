@@ -1,0 +1,21 @@
+{
+	"manifest_version": 2,
+	"name": "Send download links to aria2. Filtering what is needed (EliteTorrent, txibit, divxtotal, ...)",
+	"description": "Doncs aixó, una extensió per chrome que envía els enllaços a l'aria2 i si es necessari els fitra...",
+	"version": "1.0",
+	"permissions": [
+		"contextMenus",
+		"clipboardWrite",
+		"notifications",
+		"http://aria.tocant.me:6800/"
+	],
+	"icons": {
+		"16": "icon-16.png",
+		"48": "icon-48.png",
+		"128": "icon-128.png",
+		"240": "icon-240.png"
+	},
+	"background": {
+		"scripts": ["ariaSend.js"]
+	}
+}
